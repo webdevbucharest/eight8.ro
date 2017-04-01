@@ -1,0 +1,6 @@
+DirectoryIndex index.html
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^eight8.ro [NC]
+RewriteRule ^(.*)$ http://www.eight8.ro/$1 [L,R=301]

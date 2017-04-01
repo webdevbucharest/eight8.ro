@@ -1,0 +1,3 @@
+/* Source and licensing information for the line(s) below can be found at http://www.eight8.ro/misc/textarea.js. */
+(function(e){Drupal.behaviors.textarea={attach:function(t,a){e('.form-textarea-wrapper.resizable',t).once('textarea',function(){var n =null,t=e(this).addClass('resizable-textarea').find('textarea'),i=e('<div class="grippie"></div>').mousedown(r);i.insertAfter(t);function r(i){n =t.height()-i.pageY;t.css('opacity',0.25);e(document).mousemove(u).mouseup(a);return!1};function u(e){t.height(Math.max(32,n +e.pageY)+'px');return!1};function a(n){e(document).unbind('mousemove',u).unbind('mouseup',a);t.css('opacity',1)}})}}})(jQuery);;
+/* Source and licensing information for the above line(s) can be found at http://www.eight8.ro/misc/textarea.js. */

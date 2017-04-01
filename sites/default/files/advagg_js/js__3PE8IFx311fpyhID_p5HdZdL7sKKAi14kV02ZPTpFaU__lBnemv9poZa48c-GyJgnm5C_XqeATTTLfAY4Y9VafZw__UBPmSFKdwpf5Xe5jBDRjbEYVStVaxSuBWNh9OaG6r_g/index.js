@@ -1,0 +1,3 @@
+/* Source and licensing information for the line(s) below can be found at http://www.eight8.ro/sites/all/themes/eight8/js/eight8.behaviors.js. */
+(function(i){Drupal.behaviors.eight8ProductDisplay={attach:function(n,e){i(".view-content",n).once(function(){i(window).load(function(){i(".view-content figure").each(function(n){setTimeout(function(){i(".view-content figure").eq(n).addClass("is-showing")},45*(n+1))});i(".view-content figure").once(function(){if(i("figcaption div.field--name-field-price-old-eur",this).length){i(this).append("<div class='sale'>&nbsp;</div>")}})})})}}})(jQuery);;
+/* Source and licensing information for the above line(s) can be found at http://www.eight8.ro/sites/all/themes/eight8/js/eight8.behaviors.js. */
